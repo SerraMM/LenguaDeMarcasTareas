@@ -1,0 +1,12 @@
+1.for $jugador in /jugadores/jugador
+return $jugador/nombre/text()
+2.for $jugador in /jugadores/jugador
+return $jugador/@equipo
+3.for $jugador in /jugadores/jugador
+where $jugador/ calificacion>9
+return $jugador/nombre/text()
+4.for $jugador in /jugadores/jugador
+where $jugador/ @equipo="FC Barcelona"
+return $jugador/nombre/text()
+5.for $jugador in /jugadores/jugador
+where $jugador/ @edad<25 and $jugador/ calificacion>9 return $jugador/nombre/text()

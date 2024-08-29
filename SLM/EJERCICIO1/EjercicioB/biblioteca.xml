@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblioteca[
+<!ELEMENT biblioteca (libro+)>
+<!ELEMENT libro (titulo ,autor, fechaPublicacion)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT fechaPublicacion (#PCDATA)>
+<!ATTLIST fechaPublicacion año CDATA #REQUIRED>
+<!ATTLIST autor fechaNacimiento CDATA #IMPLIED>
+]>
+
+<biblioteca>
+    <libro>
+        <titulo>La vida está en otra parte</titulo>
+        <autor>Milan Kundera</autor>
+        <fechaPublicacion año="1973">1973</fechaPublicacion>
+    </libro>
+    <libro>
+        <titulo>Pantaleón y las visitadoras</titulo>
+    <autor fechaNacimiento="28/03/1936">Mario Vargas LLosa</autor>
+    <fechaPublicacion año="1973">1973</fechaPublicacion>
+    </libro>
+    <libro>
+        <titulo>Conversación en la catedral</titulo>
+        <autor fechaNacimiento="28/03/1936">Mario Vargas Llosa</autor>
+        <fechaPublicacion año="1969">1969</fechaPublicacion>
+    </libro>
+</biblioteca>

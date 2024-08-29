@@ -1,0 +1,8 @@
+<!ELEMENT biblioteca (libro,revista,periodico)>
+<!ELEMENT libro (titulo,autor,fechaPublicacion)>
+<!ELEMENT revista (titulo,fechaPublicacion)>
+<!ELEMENT periodico (titulo,fechaPublicacion)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT fechaPublicacion (#PCDATA)>
+<!ATTLIST numeroDePaginas libro CDATA #REQUIRED>

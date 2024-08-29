@@ -1,0 +1,8 @@
+<!ELEMENT hospital (departamento+)>
+<!ELEMENT departamento (medico+)>
+<!ATTLIST departamento nombre CDATA #REQUIRED>
+<!ELEMENT medico (nombre,paciente+)>
+<!ATTLIST medico especialidad CDATA #REQUIRED>
+<!ELEMENT paciente (nombre)>
+<!ELEMENT nombre (#PCDATA)>
+<!ATTLIST paciente fechaAdmision CDATA #REQUIRED>

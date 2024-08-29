@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sombrero [
+    <!ELEMENT sombrero (#PCDATA | material | color)*>
+    <!ELEMENT material (#PCDATA)>
+    <!ELEMENT color (#PCDATA)>
+]>
+
+<sombrero>El sombrero es de <material>fieltro</material>
+    <color>verde</color>
+</sombrero>
+
+<!--Desglose de la DTD elemento "sombrero":
+<sombrero> puede contener texto (#PCDATA), así como elementos <material> y <color>.
+El operador | se utiliza para indicar que el contenido de <sombrero> puede ser cualquier
+combinación de texto, <material> y <color>.
+El operador * indica que estos elementos pueden aparecer 0 o más veces.
+Elemento "material":
+<material> solo contiene datos de texto.
+Elemento "color":
+<color> solo contiene datos de texto.-->

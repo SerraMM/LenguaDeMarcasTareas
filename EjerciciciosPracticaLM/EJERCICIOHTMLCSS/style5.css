@@ -1,0 +1,18 @@
+
+header, footer{
+    background-color: #333;
+    color: white;
+    padding: 1em;
+}
+#enviar{
+    background-color: #333;
+    color: white;
+}
+
+#sectionCentral{
+    margin-top: 4em;
+}
+
+#sectionSuperior{
+    margin-top: 4em;
+}

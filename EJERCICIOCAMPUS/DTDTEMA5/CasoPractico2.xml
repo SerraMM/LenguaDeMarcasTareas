@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bizcochos[
+<!ELEMENT bizcochos (ingredientes,tipos)>
+<!ELEMENT ingredientes (ingrediente)*>
+<!ELEMENT ingrediente (#PCDATA)>
+<!ATTLIST ingredientes codigo ID #REQUIRED>
+<!ELEMENT tipos (tipo)*>
+<!ATTLIST tipo nombre CDATA #REQUIRED>
+<!ATTLIST tipo ingredientes CDATA #REQUIRED>
+]>

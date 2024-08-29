@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblioteca SYSTEM "./biblioteca4.dtd">
+<biblioteca>
+    <libro>
+        <titulo>Sin permiso</titulo>
+        <autor>SP</autor>
+        <fechaPublicacion>1936</fechaPublicacion>
+    </libro>
+    <revista>
+        <titulo>MQC</titulo>
+        <fechaPublicacion>1976</fechaPublicacion>
+    </revista>
+    <periodico>
+        <titulo>ABC</titulo>
+        <fechaPublicacion>1926</fechaPublicacion>
+    </periodico>
+</biblioteca>

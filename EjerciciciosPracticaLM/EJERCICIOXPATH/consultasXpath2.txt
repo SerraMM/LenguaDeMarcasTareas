@@ -1,0 +1,6 @@
+
+1.//pelicula[@duracion>150]/titulo/text()
+2.//pelicula[@idioma="Inglés"]/titulo/text()
+3.//pelicula[titulo="El Caballero de la Noche"]/@pais
+4.//pelicula[director="Quentin Tarantino"]/titulo/text()
+5.//pelicula[@idioma="Inglés" and calificacion>=9]/titulo/text()
